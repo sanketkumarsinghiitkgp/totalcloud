@@ -16,7 +16,16 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.timeline{
 
+  height: 100vh;
+  width: 80vw;
+
+}
+.table{
+  text-align: center;
+  
+}
 .App-link {
   color: #09d3ac;
 }
