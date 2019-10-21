@@ -53,12 +53,12 @@ class App extends Component {
       </div>
     );
   }
-  getDate = str => {
+  getDate = str => { //converts date in dd/mm/yyyy form to standard Javascript Date form
     let arr = str.split("/");
     let ret = new Date(arr[2] + "-" + arr[1] + "-" + arr[0]);
     return ret;
   };
-  createData = (head) => {
+  createData = (head) => { //creates a table with the field names given by the head
     
     let ret = [];
     ret.push(head);
